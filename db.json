@@ -1,0 +1,201 @@
+{
+  "status": "SUCCESS",
+  "status_code": 200,
+  "message": "Home Components",
+  "data": [
+    {
+      "id": 146,
+      "component_key": "balance_detail",
+      "title_en": "Balance Detail",
+      "title_bn": "Balance Details",
+      "is_api_call_enable": true,
+      "is_eligible": false,
+      "type": "parent",
+      "icon": null,
+      "is_title_show": false,
+      "other_component_id": null,
+      "child_ids": [],
+      "data": {
+        "pn_id": "a_6088",
+        "connection_type": "PREPAID",
+        "validity_threshold": 86400,
+        "balance": {
+          "amount": 16.64,
+          "unit": "BDT",
+          "expires_in": "2024-07-06 23:59:59",
+          "loan": {
+            "is_eligible": true,
+            "amount": 50
+          }
+        },
+        "minutes": {
+          "total": 0,
+          "remaining": 0,
+          "unit": "MIN",
+          "threshold": 15
+        },
+        "sms": {
+          "total": 0,
+          "remaining": 0,
+          "unit": "SMS",
+          "threshold": 10
+        },
+        "internet": {
+          "total": 116682.89,
+          "remaining": 116682.89,
+          "unit": "MB",
+          "threshold": 100
+        },
+        "roaming_balance": {
+          "amount": 0,
+          "currency": "TK",
+          "expires_in": null
+        }
+      },
+      "cta": {
+        "name_en": null,
+        "name_bn": null,
+        "deeplink": null
+      }
+    },
+    {
+      "id": 171,
+      "component_key": "generic_rail",
+      "title_en": "Plans & Offers",
+      "title_bn": "প্ল্যান ও অফার",
+      "is_api_call_enable": true,
+      "is_eligible": false,
+      "type": "parent",
+      "icon": null,
+      "is_title_show": true,
+      "other_component_id": 42,
+      "child_ids": [],
+      "data": null,
+      "cta": {
+        "name_en": "See All",
+        "name_bn": "সব দেখুন",
+        "deeplink": "https://banglalink.net/cms/connect/plans/MYBL_CAMPAIGN"
+      },
+      "rails": [
+        {
+          "id": 61,
+          "title_en": "Best Deals",
+          "title_bn": "সেরা ডিলস",
+          "icon": "https://myblapi.banglalink.net/storage/global-media/bWo9HlTFUGBuB3lbxHoyX6ngOME7wcT35fbLd8Z9.png",
+          "deeplink": "https://banglalink.net/cms/connect/plans/MYBL_CAMPAIGN",
+          "component_identifier": "MYBL_CAMPAIGN",
+          "is_highlight": true
+        },
+        {
+          "id": 62,
+          "title_en": "Internet",
+          "title_bn": "ইন্টারনেট",
+          "icon": "https://myblapi.banglalink.net/storage/global-media/SViiJqri1YaM9mAmTkVU6bRe8T9rwInlXjPXDrp1.png",
+          "deeplink": "https://banglalink.net/cms/connect/plans/INTERNET_PACKS",
+          "component_identifier": "INTERNET_PACKS",
+          "is_highlight": false
+        },
+        {
+          "id": 63,
+          "title_en": "Bundle",
+          "title_bn": "বান্ডেল",
+          "icon": "https://myblapi.banglalink.net/storage/global-media/uzBEfpZrZQraTquwow5OEI4u4dgayqEWAUXXS6r3.png",
+          "deeplink": "https://banglalink.net/cms/connect/plans/MIXED_BUNDLES",
+          "component_identifier": "MIXED_BUNDLES",
+          "is_highlight": false
+        },
+        {
+          "id": 64,
+          "title_en": "Amar Offer",
+          "title_bn": "আমার অফার",
+          "icon": "https://myblapi.banglalink.net/storage/global-media/RrDG8Mlvek2P3CHuJ4ruIsEl4NXiHiWQUF58fsL0.png",
+          "deeplink": "https://banglalink.net/cms/connect/plans/AMAR_OFFER",
+          "component_identifier": "AMAR_OFFER",
+          "is_highlight": false
+        },
+        {
+          "id": 65,
+          "title_en": "Minute Packs",
+          "title_bn": "মিনিট প্যাক",
+          "icon": "https://myblapi.banglalink.net/storage/global-media/ulxVMEaaZhUFmShJzmECtJXvQkaQsmOie6PEn5GR.png",
+          "deeplink": "https://banglalink.net/cms/connect/plans/VOICE_BUNDLE",
+          "component_identifier": "VOICE_BUNDLE",
+          "is_highlight": false
+        },
+        {
+          "id": 66,
+          "title_en": "Special Call Rate",
+          "title_bn": "স্পেশাল কলরেট",
+          "icon": "https://myblapi.banglalink.net/storage/global-media/D3vKXbpY305EvaXTVroM57TX4HmECFpFOvdaApT8.png",
+          "deeplink": "https://banglalink.net/cms/connect/plans/SPECIAL_RATE_PACKS",
+          "component_identifier": "SPECIAL_RATE_PACKS",
+          "is_highlight": false
+        },
+        {
+          "id": 70,
+          "title_en": "Gift",
+          "title_bn": "গিফট্",
+          "icon": null,
+          "deeplink": "https://banglalink.net/cms/connect/plans/GIFT_PACKS",
+          "component_identifier": "GIFT_PACKS",
+          "is_highlight": false
+        },
+        {
+          "id": 71,
+          "title_en": "Roaming",
+          "title_bn": "রোমিং",
+          "icon": null,
+          "deeplink": "https://banglalink.net/cms/connect/plans/ROAMING_PACKS",
+          "component_identifier": "ROAMING_PACKS",
+          "is_highlight": false
+        },
+        {
+          "id": 73,
+          "title_en": "My Plan",
+          "title_bn": "আমার প্ল্যান",
+          "icon": null,
+          "deeplink": "https://banglalink.net/cms/connect/plans/AMAR_PLAN",
+          "component_identifier": "AMAR_PLAN",
+          "is_highlight": false
+        },
+        {
+          "id": 74,
+          "title_en": "SMS",
+          "title_bn": "এসএমএস",
+          "icon": "https://myblapi-test.banglalink.net/storage/global-media/N6ajCOalC5xn5hVL7gg37NL0NDYRxAJV6GOcQ7KX.png",
+          "deeplink": "https://banglalink.net/cms/connect/plans/SMS_PACKS",
+          "component_identifier": "SMS_PACKS",
+          "is_highlight": false
+        },
+        {
+          "id": 79,
+          "title_en": "Digital Services",
+          "title_bn": "বাংলা",
+          "icon": null,
+          "deeplink": "https://banglalink.net/cms/connect/plans/SERVICE",
+          "component_identifier": "SERVICE",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "component_key": "audiobook",
+      "title_en": "Audiobook Trending",
+      "title_bn": "অডিওবুক ট্রেন্ডিং",
+      "is_api_call_enable": 1,
+      "is_eligible": 1,
+      "type": "parent",
+      "icon": "https://myblapi-test.banglalink.net/storage/global-media/KsDlSjv72LwFCf467MTXQ7Q21pK242tGxHPTlxEv.png",
+      "banner": "https://myblapi-test.banglalink.net/storage/trivia/ItjGLbHdnFMOabaMAdsxv0TY3r8aYXfqdNP9E0Xc.png",
+      "is_title_show": true,
+      "other_component_id": null,
+      "child_ids": [],
+      "cta": {
+        "name_en": "See All",
+        "name_bn": "সব দেখুন",
+        "deeplink": "https://banglalink.net/cms/content/audiobook"
+      }
+    }
+  ]
+}
